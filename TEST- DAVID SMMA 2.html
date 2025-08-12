@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>David • 1-on-1 SMMA Mentorship — Apply</title>
+  <meta name="description" content="1-on-1 mentorship with David — build & scale your SMMA. Apply now." />
+
+  <style>
+    :root{
+      --bg-dark:#0b0b0b;
+      --bg-light:#ffffff;
+      --accent:#ff6a00;
+      --muted:#f3f3f5;
+      --text:#0b0b0b;
+      --inverse:#ffffff;
+      --max-width:1100px;
+      --radius:14px;
+      --gap:28px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      color:var(--text);
+      background:var(--muted);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+      font-size:16px;
+    }
+    .container{max-width:var(--max-width);margin:0 auto;padding:36px;}
+    .stack{display:flex;flex-direction:column;gap:var(--gap)}
+    .hero{
+      background:linear-gradient(180deg,var(--bg-dark) 0%, #111 100%);
+      color:var(--inverse);
+      padding:60px 24px;
+      border-radius:18px;
+      box-shadow:0 10px 30px rgba(11,11,11,0.45);
+    }
+    .hero-inner{display:flex;gap:32px;align-items:center;flex-wrap:wrap;max-width:var(--max-width);margin:0 auto}
+    .hero-left{flex:1 1 420px;min-width:300px}
+    .eyebrow{display:inline-block;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,0.06);font-weight:600;color:rgba(255,255,255,0.9);font-size:13px}
+    h1{font-size:40px;margin:18px 0 8px;line-height:1.02;letter-spacing:-0.02em}
+    .sub{opacity:0.9;font-size:18px;margin-bottom:18px}
+    .cta-row{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+    .btn{
+      display:inline-flex;align-items:center;gap:10px;padding:14px 20px;border-radius:10px;border:0;cursor:pointer;font-weight:700;font-size:16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    }
+    .btn-accent{background:var(--accent);color:var(--inverse)}
+    .btn-outline{background:transparent;color:var(--inverse);border:2px solid rgba(255,255,255,0.12)}
+    .hero-right{flex:1 1 420px;min-width:320px}
+    .video-frame{
+      background:#000;border-radius:12px;overflow:hidden;box-shadow:0 10px 30px rgba(0,0,0,0.6);
+      position:relative;padding-top:56.25%;
+    }
+    .video-frame iframe{
+      position:absolute;top:0;left:0;width:100%;height:100%;border:0;
+    }
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+    .feature{background:var(--inverse);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(14,14,14,0.06);font-weight:700}
+    .feature small{display:block;font-size:13px;color:#666;font-weight:500;margin-top:8px}
+    section{padding:56px 0}
+    .white{background:var(--bg-light);color:var(--text)}
+    .dark{background:var(--bg-dark);color:var(--inverse)}
+    .muted{background:var(--muted);color:var(--text)}
+    .grid{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:start}
+    .card{background:var(--inverse);padding:22px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.06)}
+    ul.bl {margin:14px 0 0;padding-left:18px;}
+    ul.bl li{margin:8px 0;font-weight:600}
+    .testimonials{display:flex;gap:16px;overflow:auto;padding-bottom:8px}
+    .t-card{min-width:240px;background:linear-gradient(180deg,var(--inverse),#fafafa);padding:18px;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+    footer{padding:36px 0;text-align:center;color:#777;font-size:14px}
+    @media (max-width:980px){
+      .features{grid-template-columns:repeat(2,1fr)}
+      .grid{grid-template-columns:1fr}
+      h1{font-size:32px}
+      .hero-inner{flex-direction:column}
+    }
+    @media (max-width:640px){
+      .features{grid-template-columns:1fr}
+      .eyebrow{font-size:12px}
+    }
+  </style>
+</head>
+<body>
+
+  <main class="stack">
+    <!-- HERO -->
+    <div class="container">
+      <header class="hero">
+        <div class="hero-inner">
+          <div class="hero-left">
+            <div class="eyebrow">1-on-1 Mentorship • Limited Spots</div>
+            <h1>Work directly with David — build a profitable SMMA in months, not years.</h1>
+            <p class="sub">High-signal 1-on-1 mentorship, done-for-you frameworks, live roleplay, and hands-on funnel & outreach setup. No fluff — results-first.</p>
+
+            <div class="cta-row">
+              <button class="btn btn-accent" id="applyBtn">Apply for 1-on-1 Mentorship</button>
+              <button class="btn btn-outline" id="learnMoreBtn">See the Program</button>
+            </div>
+
+            <div style="margin-top:18px;color:rgba(255,255,255,0.75);font-size:14px">
+              <strong>Limited seats.</strong> Applicants are vetted — this is for operators who will do the work.
+            </div>
+
+            <div class="features" style="margin-top:22px">
+              <div class="feature">1-on-1 Coaching<small>Personal plan & calls</small></div>
+              <div class="feature">Skool Community<small>Templates & prompts</small></div>
+              <div class="feature">Done-with-you Ops<small>Scripts, funnels, hiring</small></div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="video-frame">
+              <iframe id="vsl" src="https://www.youtube.com/embed/l3imql0jRUY?rel=0&modestbranding=1" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- WHAT YOU GET -->
+    <section class="white">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h2>What you get in David’s 1-on-1 mentorship</h2>
+            <p>A practical, task-first mentorship that walks you from outreach to client onboarding, pricing, and scaling your agency team.</p>
+            <div class="card">
+              <ul class="bl">
+                <li>Weekly 1-on-1 calls with a proven playbook</li>
+                <li>Done-with-you funnels & outreach templates</li>
+                <li>Cold call scripts & reply templates that book meetings</li>
+                <li>Full hiring SOPs & role templates for scaling</li>
+                <li>Access to the Skool community & templates library</li>
+              </ul>
+            </div>
+          </div>
+          <aside>
+            <div class="card">
+              <h3>Who should apply</h3>
+              <p>Ideal for early agency owners and high-work-rate closers who want a mentor to shorten the learning curve.</p>
+              <strong>Apply if you:</strong>
+              <ul class="bl">
+                <li>Already have at least 1 month of outreach (or are ready to do it)</li>
+                <li>Are coachable and take action immediately</li>
+                <li>Want a repeatable system to book, close, and scale</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROOF -->
+    <section class="dark">
+      <div class="container" style="display:flex;gap:28px;align-items:center;flex-wrap:wrap">
+        <div style="flex:1;min-width:280px">
+          <h3>Proof & wins</h3>
+          <p>Documented wins from students and daily booking examples — real messages & screenshots sent by clients.</p>
+          <div class="testimonials">
+            <div class="t-card"><strong>“Booked 3 calls in 72 hours.”</strong><div>— J., Student</div></div>
+            <div class="t-card"><strong>“$6k MRR after two months.”</strong><div>— M., Graduate</div></div>
+            <div class="t-card"><strong>“Scripts actually work.”</strong><div>— S., Student</div></div>
+          </div>
+        </div>
+        <div style="min-width:300px;text-align:right">
+          <div style="display:inline-block;background:var(--accent);padding:18px;border-radius:12px;color:var(--inverse);font-weight:800">
+            Ready to apply?<div style="font-size:13px;font-weight:600;opacity:0.95">Applications reviewed weekly — spots are limited</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="muted">
+      <div class="container">
+        <div class="grid">
+          <div>
+            <h3>Frequently asked</h3>
+            <div class="card">
+              <strong>How long is the mentorship?</strong>
+              <p>Typical mentorships run 3–6 months depending on goals.</p>
+              <strong>Is this a done-for-you agency?</strong>
+              <p>No — this is done-with-you. You’ll be executing while getting guided help.</p>
+              <strong>How do I apply?</strong>
+              <p>Click <em>Apply for 1-on-1 Mentorship</em> and fill the application form.</p>
+            </div>
+          </div>
+          <aside>
+            <div class="card" style="text-align:center">
+              <h3>Ready to be coached?</h3>
+              <p>Only applicants who take action and follow the process will be accepted.</p>
+              <button class="btn btn-accent" id="applyAside">Apply Now</button>
+              <div style="margin-top:10px;font-size:13px;color:#666">Form opens in a new tab</div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        © <span id="cyear"></span> David • SMMA — Mentorship program.
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('cyear').innerText = new Date().getFullYear();
+    const GOOGLE_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSf0aK5HHGSv3zlJMmhWZ5g5urS8_XZ7lSjdqtwz6jeeqsqirA/viewform";
+    function openForm(){ window.open(GOOGLE_FORM_URL, '_blank', 'noopener,noreferrer'); }
+    document.getElementById('applyBtn').addEventListener('click', openForm);
+    document.getElementById('applyAside').addEventListener('click', openForm);
+    document.getElementById('learnMoreBtn').addEventListener('click', function(){
+      window.scrollTo({top: document.querySelector('.white').offsetTop - 40, behavior:'smooth'});
+    });
+  </script>
+</body>
+</html>
